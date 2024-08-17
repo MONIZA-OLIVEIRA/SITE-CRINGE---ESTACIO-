@@ -1,0 +1,34 @@
+/* Formatação geral do body */
+body {
+    background-color: #ea8a46; /* Cor de fundo do corpo */
+    color: #000; /* Cor do texto */
+    margin: 0;
+    padding: 0;
+}
+
+/* Formatação do header */
+header {
+    height: 60px;
+}
+
+/* Formatação da área principal */
+main {
+    height: calc(100vh - 100px); /* Altura da área principal */
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+    padding: 20px;
+}
+
+/* Formatação do footer */
+footer {
+    height: 25px;
+    background-color: #97b9db;
+    text-align: center;
+    padding: 5px;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 767px) {
+    .form-group {
+        margin-bottom: 15px; /* Espaçamento entre os campos do formulário em telas pequenas */
+    }
+}
